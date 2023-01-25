@@ -1,0 +1,233 @@
+{
+	"compiler": {
+		"version": "0.4.23+commit.124ca40d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner_",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "wut",
+						"type": "bytes32"
+					}
+				],
+				"name": "poke",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "read",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "peek",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					},
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "authority_",
+						"type": "address"
+					}
+				],
+				"name": "setAuthority",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "void",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "authority",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"anonymous": true,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "sig",
+						"type": "bytes4"
+					},
+					{
+						"indexed": true,
+						"name": "guy",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "foo",
+						"type": "bytes32"
+					},
+					{
+						"indexed": true,
+						"name": "bar",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"name": "wad",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "fax",
+						"type": "bytes"
+					}
+				],
+				"name": "LogNote",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "authority",
+						"type": "address"
+					}
+				],
+				"name": "LogSetAuthority",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "LogSetOwner",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ds-value/value.sol": "DSValue"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ds-auth/auth.sol": {
+			"keccak256": "0xc02ed2267e6475942b44a1bc837d7691dc0a9febd53cdcb9b733c75a8868c551",
+			"urls": [
+				"bzzr://bd3fbf232b415b118f5cefe30a3a8e6853960efa6203a205522e35ab7e474eab"
+			]
+		},
+		"contracts/ds-math/math.sol": {
+			"keccak256": "0x961977c4d8637627cd2426212b1e457720913e52674419e910f25741f5057a11",
+			"urls": [
+				"bzzr://a54443c33dae485bf186455cd58593cbb5187d41231582087d4bc99157a68396"
+			]
+		},
+		"contracts/ds-note/note.sol": {
+			"keccak256": "0xa16a36d355ac085634345bfa5fd6165736e97403ebf59de78a2f9e3025e0bbb1",
+			"urls": [
+				"bzzr://c712d0b3aab1e6c2dad18d3f4e0ed1aa4bdd66eedbce3f8d5a6862b9f2f19759"
+			]
+		},
+		"contracts/ds-thing/thing.sol": {
+			"keccak256": "0xd817e0f1080f241ec988c41287ad39700e0167690c283b0f7f238da8721a2595",
+			"urls": [
+				"bzzr://3dcfb82881d7931ba173dfd75267c126b4a430a347b7cd9ad26730fe95e0255a"
+			]
+		},
+		"contracts/ds-value/value.sol": {
+			"keccak256": "0xcd5298fc9f91c5fffa6e60da9f0fb1e1be4235a3ff0e6621af5d510e51b368b2",
+			"urls": [
+				"bzzr://daf310e363273ac0415a22beeb2e26c1c4c8a5c7f6c32523e8dcd1fbb1aaedab"
+			]
+		}
+	},
+	"version": 1
+}

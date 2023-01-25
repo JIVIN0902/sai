@@ -1,0 +1,69 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058208eb26c6b6bf4d435b6609b3a5c3c549e8d5a2bd6d43459fc8710beca860de9070029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 DUP15 0xb2 PUSH13 0x6B6BF4D435B6609B3A5C3C549E DUP14 GAS 0x2b 0xd6 0xd4 CALLVALUE MSIZE 0xfc DUP8 LT 0xbe 0xca DUP7 0xd 0xe9 SMOD STOP 0x29 ",
+			"sourceMap": "722:2113:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;722:2113:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fd00a165627a7a723058208eb26c6b6bf4d435b6609b3a5c3c549e8d5a2bd6d43459fc8710beca860de9070029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 DUP15 0xb2 PUSH13 0x6B6BF4D435B6609B3A5C3C549E DUP14 GAS 0x2b 0xd6 0xd4 CALLVALUE MSIZE 0xfc DUP8 LT 0xbe 0xca DUP7 0xd 0xe9 SMOD STOP 0x29 ",
+			"sourceMap": "722:2113:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "10600",
+				"executionCost": "66",
+				"totalCost": "10666"
+			},
+			"internal": {
+				"add(uint256,uint256)": "infinite",
+				"imax(int256,int256)": "infinite",
+				"imin(int256,int256)": "infinite",
+				"max(uint256,uint256)": "infinite",
+				"min(uint256,uint256)": "infinite",
+				"mul(uint256,uint256)": "infinite",
+				"rdiv(uint256,uint256)": "infinite",
+				"rmul(uint256,uint256)": "infinite",
+				"rpow(uint256,uint256)": "infinite",
+				"sub(uint256,uint256)": "infinite",
+				"wdiv(uint256,uint256)": "infinite",
+				"wmul(uint256,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

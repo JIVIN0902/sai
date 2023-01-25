@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.4.23+commit.124ca40d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "gem",
+						"type": "address"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/pit.sol": "GemPit"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ds-auth/auth.sol": {
+			"keccak256": "0xc02ed2267e6475942b44a1bc837d7691dc0a9febd53cdcb9b733c75a8868c551",
+			"urls": [
+				"bzzr://bd3fbf232b415b118f5cefe30a3a8e6853960efa6203a205522e35ab7e474eab"
+			]
+		},
+		"contracts/ds-math/math.sol": {
+			"keccak256": "0x961977c4d8637627cd2426212b1e457720913e52674419e910f25741f5057a11",
+			"urls": [
+				"bzzr://a54443c33dae485bf186455cd58593cbb5187d41231582087d4bc99157a68396"
+			]
+		},
+		"contracts/ds-note/note.sol": {
+			"keccak256": "0xa16a36d355ac085634345bfa5fd6165736e97403ebf59de78a2f9e3025e0bbb1",
+			"urls": [
+				"bzzr://c712d0b3aab1e6c2dad18d3f4e0ed1aa4bdd66eedbce3f8d5a6862b9f2f19759"
+			]
+		},
+		"contracts/ds-stop/stop.sol": {
+			"keccak256": "0x03803437b1b54280cfaa1016b9e9e13dc50ddd6aa28602dac5e1e8c6e900b46f",
+			"urls": [
+				"bzzr://f646a140058715e5c457a2b7002c38cfc9a9e89e18ffa863004dd5b76b323bcb"
+			]
+		},
+		"contracts/ds-token/base.sol": {
+			"keccak256": "0x97c2f263e79c0d1d1dd503155d51ffe95fad484711d5903d4b1bb5fa8068df79",
+			"urls": [
+				"bzzr://56d8fbcc34d3a8f6345e55a7c7b9085734da6878db1341959c10fc68d0a6f3d2"
+			]
+		},
+		"contracts/ds-token/token.sol": {
+			"keccak256": "0x045d304c1ef2233f5cc8dead6d7bc5f9bb8ad9b6fed48afb5bccc0769e7b96c9",
+			"urls": [
+				"bzzr://bb3cb3d6d353a3a2874d4c6e12b68d706fbf5c7e72ea0e7161b21f807d0b8894"
+			]
+		},
+		"contracts/erc20/erc20.sol": {
+			"keccak256": "0x955c4147f6b1ffefb62ce3701929d98f180377a2a67eb04ba05fadbfe52aaaa9",
+			"urls": [
+				"bzzr://ac02f1b83ecd92bebe1f700aff765f445f93bf577a41a37f3322df2750188625"
+			]
+		},
+		"contracts/pit.sol": {
+			"keccak256": "0x549458b6c442773c9678ba6982cd528d37d9b7ec5072e6d1aa255415ba9e12e6",
+			"urls": [
+				"bzzr://f174d308594f338ec87bd5c9e2739fce361d8956ac616fc4af8ee3287591b4f1"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,198 @@
+{
+	"compiler": {
+		"version": "0.4.23+commit.124ca40d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "stop",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner_",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "stopped",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "authority_",
+						"type": "address"
+					}
+				],
+				"name": "setAuthority",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "start",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "authority",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "authority",
+						"type": "address"
+					}
+				],
+				"name": "LogSetAuthority",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "LogSetOwner",
+				"type": "event"
+			},
+			{
+				"anonymous": true,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "sig",
+						"type": "bytes4"
+					},
+					{
+						"indexed": true,
+						"name": "guy",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "foo",
+						"type": "bytes32"
+					},
+					{
+						"indexed": true,
+						"name": "bar",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"name": "wad",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "fax",
+						"type": "bytes"
+					}
+				],
+				"name": "LogNote",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ds-stop/stop.sol": "DSStop"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ds-auth/auth.sol": {
+			"keccak256": "0xc02ed2267e6475942b44a1bc837d7691dc0a9febd53cdcb9b733c75a8868c551",
+			"urls": [
+				"bzzr://bd3fbf232b415b118f5cefe30a3a8e6853960efa6203a205522e35ab7e474eab"
+			]
+		},
+		"contracts/ds-note/note.sol": {
+			"keccak256": "0xa16a36d355ac085634345bfa5fd6165736e97403ebf59de78a2f9e3025e0bbb1",
+			"urls": [
+				"bzzr://c712d0b3aab1e6c2dad18d3f4e0ed1aa4bdd66eedbce3f8d5a6862b9f2f19759"
+			]
+		},
+		"contracts/ds-stop/stop.sol": {
+			"keccak256": "0x03803437b1b54280cfaa1016b9e9e13dc50ddd6aa28602dac5e1e8c6e900b46f",
+			"urls": [
+				"bzzr://f646a140058715e5c457a2b7002c38cfc9a9e89e18ffa863004dd5b76b323bcb"
+			]
+		}
+	},
+	"version": 1
+}

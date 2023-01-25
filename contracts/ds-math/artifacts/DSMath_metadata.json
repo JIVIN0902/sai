@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.23+commit.124ca40d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ds-math/math.sol": "DSMath"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ds-math/math.sol": {
+			"keccak256": "0x961977c4d8637627cd2426212b1e457720913e52674419e910f25741f5057a11",
+			"urls": [
+				"bzzr://a54443c33dae485bf186455cd58593cbb5187d41231582087d4bc99157a68396"
+			]
+		}
+	},
+	"version": 1
+}

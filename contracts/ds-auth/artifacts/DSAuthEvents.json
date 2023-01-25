@@ -1,0 +1,80 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058200b4e5b5aa61fcf9da0cfbb368d4cb76c7bc567f580b8f510883f865bd734c8fb0029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 SIGNEXTEND 0x4e JUMPDEST GAS 0xa6 0x1f 0xcf SWAP14 LOG0 0xcf 0xbb CALLDATASIZE DUP14 0x4c 0xb7 PUSH13 0x7BC567F580B8F510883F865BD7 CALLVALUE 0xc8 CREATE2 STOP 0x29 ",
+			"sourceMap": "834:131:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;834:131:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fd00a165627a7a723058200b4e5b5aa61fcf9da0cfbb368d4cb76c7bc567f580b8f510883f865bd734c8fb0029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 SIGNEXTEND 0x4e JUMPDEST GAS 0xa6 0x1f 0xcf SWAP14 LOG0 0xcf 0xbb CALLDATASIZE DUP14 0x4c 0xb7 PUSH13 0x7BC567F580B8F510883F865BD7 CALLVALUE 0xc8 CREATE2 STOP 0x29 ",
+			"sourceMap": "834:131:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "10600",
+				"executionCost": "66",
+				"totalCost": "10666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"name": "authority",
+					"type": "address"
+				}
+			],
+			"name": "LogSetAuthority",
+			"type": "event"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"name": "owner",
+					"type": "address"
+				}
+			],
+			"name": "LogSetOwner",
+			"type": "event"
+		}
+	]
+}
